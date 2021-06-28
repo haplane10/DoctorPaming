@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39260e21cc9eb4649a2846dc911d98d2, type: 3}
+  m_Name: StartMessage
+  m_EditorClassIdentifier: 
+  Messages:
+  - "\uC548\uB155\uD558\uC138\uC694.\n\uB2E5\uD130 \uD30C\uBC0D \uC5F0\uAD6C\uC18C\uC5D0
+    \uC624\uC2E0\uAC78 \uD658\uC601\uD569\uB2C8\uB2E4."
+  - "\uC544\uB9B0\uC774\uAC00 \uC791\uC740 \uC0DD\uBB3C \uC5F0\uAD6C\uC18C\uC5D0\uC11C
+    \uC798 \uACF5\uBD80\uD560 \uC218 \uC788\uB294\uC9C0 \uD14C\uC2A4\uD2B8\uB97C
+    \uD574\uBCF4\uB824\uACE0 \uD569\uB2C8\uB2E4."
+  - "\uB2E4\uC74C \uC9C8\uBB38\uC5D0 \uB2F5\uD574\uC8FC\uC138\uC694.\n\uCCAB \uBC88\uC9F8
+    \uC9C8\uBB38 \uC785\uB2C8\uB2E4."
+  Question: "\uC6B0\uB9AC \uC8FC\uBCC0\uC5D0 \uC788\uB294 \uACF0\uD321\uC774\uB098
+    \uBC84\uC12F\uC744 \uBB34\uC2A8 \uC0DD\uBB3C\uC758 \uC885\uB958\uB77C\uACE0 \uD560\uAE4C\uC694?"
+  Examples:
+  - 1.
+  - 2.
+  - 3.
+  - 4
+  Answer: 1
