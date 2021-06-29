@@ -23,8 +23,9 @@ MonoBehaviour:
   Question: "\uC6B0\uB9AC \uC8FC\uBCC0\uC5D0 \uC788\uB294 \uACF0\uD321\uC774\uB098
     \uBC84\uC12F\uC744 \uBB34\uC2A8 \uC0DD\uBB3C\uC758 \uC885\uB958\uB77C\uACE0 \uD560\uAE4C\uC694?"
   Examples:
-  - 1.
-  - 2.
-  - 3.
-  - 4
-  Answer: 1
+  - "1. \uC138\uADE0"
+  - "2. \uBC14\uC774\uB7EC\uC2A4"
+  - "3. \uC6D0\uC0DD\uC0DD\uBB3C"
+  - "4. \uADE0\uB958"
+  Answer: 4
+  Point: 10

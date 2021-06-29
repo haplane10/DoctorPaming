@@ -9,4 +9,5 @@ public class MassageScriptObject : ScriptableObject
     [Multiline] public string Question;
     public string[] Examples;
     public int Answer;
+    public int Point;
 }
