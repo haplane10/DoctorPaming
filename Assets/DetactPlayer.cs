@@ -30,12 +30,26 @@ public class DetactPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+            if (Input.GetMouseButtonUp(0))
+            {
+                if (Physics.Raycast(ray, out hit))
+                {
+                    if (hit.collider.CompareTag("DoctorPaming"))
+                    {
+                        messageCanvas.SetActive(true);
+                        GetComponent<MessageManager>().LoadMessage();
+                    }
+                }
+            }
+
             if (Input.GetKeyDown(KeyCode.F))
             {
                 messageCanvas.SetActive(true);
                 GetComponent<MessageManager>().LoadMessage();
             }
-            Debug.Log("Stay " + other.name);
         }
     }
 

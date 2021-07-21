@@ -90,6 +90,11 @@ public class MessageManager : MonoBehaviour
 
     void InitializeQuestionUI()
     {
+        foreach (var exampleButton in buttons)
+        {
+            exampleButton.GetComponent<Image>().color = Color.white;
+        }
+
         GetComponent<DetactPlayer>().messageCanvas.SetActive(false);
     }
 }
